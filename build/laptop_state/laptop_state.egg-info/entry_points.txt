@@ -1,0 +1,6 @@
+[console_scripts]
+battery_listener = laptop_state.battery_subscriber:main
+battery_talker = laptop_state.battery_publisher:main
+system_listener = laptop_state.system_subscriber:main
+system_talker = laptop_state.system_publisher:main
+

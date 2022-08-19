@@ -1,0 +1,72 @@
+[0.014s] Invoking command in '/home/createc/task2_ws/build/laptop_state': /usr/bin/cmake /home/createc/task2_ws/src/laptop_state -DCMAKE_INSTALL_PREFIX=/home/createc/task2_ws/install/laptop_state
+[0.053s] CMake Warning (dev) in CMakeLists.txt:
+[0.053s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.053s]   contain a literal, direct call to the project() command.  Add a line of
+[0.053s]   code such as
+[0.053s] 
+[0.053s]     project(ProjectName)
+[0.053s] 
+[0.053s]   near the top of the file, but after cmake_minimum_required().
+[0.054s] 
+[0.054s]   CMake is pretending there is a "project(Project)" command on the first
+[0.054s]   line.
+[0.054s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.054s] 
+[0.244s] -- The C compiler identification is GNU 9.4.0
+[0.406s] -- The CXX compiler identification is GNU 9.4.0
+[0.418s] -- Check for working C compiler: /usr/bin/cc
+[0.508s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.510s] -- Detecting C compiler ABI info
+[0.596s] -- Detecting C compiler ABI info - done
+[0.620s] -- Detecting C compile features
+[0.621s] -- Detecting C compile features - done
+[0.628s] -- Check for working CXX compiler: /usr/bin/c++
+[0.713s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.714s] -- Detecting CXX compiler ABI info
+[0.804s] -- Detecting CXX compiler ABI info - done
+[0.819s] -- Detecting CXX compile features
+[0.820s] -- Detecting CXX compile features - done
+[0.826s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.829s] -- Found ament_cmake_core: 1.1.5 (/opt/ros/galactic/share/ament_cmake_core/cmake)
+[0.858s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.858s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.924s] CMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[0.925s]   Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+[0.925s]   --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+[0.925s]   set the policy and suppress this warning.
+[0.925s] 
+[0.925s]   IN_LIST will be interpreted as an operator when the policy is set to NEW.
+[0.925s]   Since the policy is not set the OLD behavior will be used.
+[0.925s] Call Stack (most recent call first):
+[0.925s]   /opt/ros/galactic/share/ament_cmake_core/cmake/index/ament_index_get_resources.cmake:51 (list_append_unique)
+[0.925s]   /opt/ros/galactic/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:5 (ament_index_get_resources)
+[0.925s]   /opt/ros/galactic/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+[0.925s]   CMakeLists.txt:1 (find_package)
+[0.926s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.926s] 
+[0.926s] CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[0.926s]   if given arguments:
+[0.926s] 
+[0.926s]     "NOT" "element" "IN_LIST" "paths_to_search"
+[0.926s] 
+[0.926s]   Unknown arguments specified
+[0.926s] Call Stack (most recent call first):
+[0.926s]   /opt/ros/galactic/share/ament_cmake_core/cmake/index/ament_index_get_resources.cmake:51 (list_append_unique)
+[0.926s]   /opt/ros/galactic/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:5 (ament_index_get_resources)
+[0.926s]   /opt/ros/galactic/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+[0.926s]   CMakeLists.txt:1 (find_package)
+[0.926s] 
+[0.927s] 
+[0.927s] CMake Warning (dev) in CMakeLists.txt:
+[0.927s]   No cmake_minimum_required command is present.  A line of code such as
+[0.927s] 
+[0.927s]     cmake_minimum_required(VERSION 3.16)
+[0.927s] 
+[0.927s]   should be added at the top of the file.  The version specified may be lower
+[0.927s]   if you wish to support older CMake versions for this project.  For more
+[0.927s]   information run "cmake --help-policy CMP0000".
+[0.927s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.928s] 
+[0.928s] -- Configuring incomplete, errors occurred!
+[0.928s] See also "/home/createc/task2_ws/build/laptop_state/CMakeFiles/CMakeOutput.log".
+[0.929s] Invoked command in '/home/createc/task2_ws/build/laptop_state' returned '1': /usr/bin/cmake /home/createc/task2_ws/src/laptop_state -DCMAKE_INSTALL_PREFIX=/home/createc/task2_ws/install/laptop_state

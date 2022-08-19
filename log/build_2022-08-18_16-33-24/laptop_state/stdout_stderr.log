@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/laptop_state/laptop_state.egg-info
+writing ../../build/laptop_state/laptop_state.egg-info/PKG-INFO
+writing dependency_links to ../../build/laptop_state/laptop_state.egg-info/dependency_links.txt
+writing entry points to ../../build/laptop_state/laptop_state.egg-info/entry_points.txt
+writing requirements to ../../build/laptop_state/laptop_state.egg-info/requires.txt
+writing top-level names to ../../build/laptop_state/laptop_state.egg-info/top_level.txt
+writing manifest file '../../build/laptop_state/laptop_state.egg-info/SOURCES.txt'
+reading manifest file '../../build/laptop_state/laptop_state.egg-info/SOURCES.txt'
+writing manifest file '../../build/laptop_state/laptop_state.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/createc/task2_ws/build/laptop_state/build
+creating /home/createc/task2_ws/build/laptop_state/build/lib
+creating /home/createc/task2_ws/build/laptop_state/build/lib/laptop_state
+copying laptop_state/__init__.py -> /home/createc/task2_ws/build/laptop_state/build/lib/laptop_state
+running install
+running install_lib
+creating /home/createc/task2_ws/install/laptop_state/lib/python3.8/site-packages/laptop_state
+copying /home/createc/task2_ws/build/laptop_state/build/lib/laptop_state/__init__.py -> /home/createc/task2_ws/install/laptop_state/lib/python3.8/site-packages/laptop_state
+byte-compiling /home/createc/task2_ws/install/laptop_state/lib/python3.8/site-packages/laptop_state/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/createc/task2_ws/install/laptop_state/share/ament_index
+creating /home/createc/task2_ws/install/laptop_state/share/ament_index/resource_index
+creating /home/createc/task2_ws/install/laptop_state/share/ament_index/resource_index/packages
+copying resource/laptop_state -> /home/createc/task2_ws/install/laptop_state/share/ament_index/resource_index/packages
+copying package.xml -> /home/createc/task2_ws/install/laptop_state/share/laptop_state
+running install_egg_info
+Copying ../../build/laptop_state/laptop_state.egg-info to /home/createc/task2_ws/install/laptop_state/lib/python3.8/site-packages/laptop_state-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/createc/task2_ws/build/laptop_state/install.log'

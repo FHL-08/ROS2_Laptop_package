@@ -1,0 +1,44 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_interfaces/msg/SystemMsg.msg
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module msg {
+    struct SystemMsg {
+      string device_name;
+
+      string linux_version;
+
+      string cpu_model_name;
+
+      string user_name;
+
+      @verbatim (language="comment", text=
+        " System")
+      sequence<string> partitions;
+
+      sequence<float> system_size;
+
+      sequence<float> free_space;
+
+      @verbatim (language="comment", text=
+        " RAM")
+      double ram_size;
+
+      double used_ram;
+
+      double available_ram;
+
+      @verbatim (language="comment", text=
+        " CPU")
+      uint32 cpu_processor;
+
+      sequence<float> frequency;
+
+      double cpu_temp;
+
+      sequence<float> core_temp;
+    };
+  };
+};

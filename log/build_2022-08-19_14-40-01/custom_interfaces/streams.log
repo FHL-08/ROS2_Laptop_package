@@ -1,0 +1,50 @@
+[0.016s] Invoking command in '/home/createc/task2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/createc/task2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/createc/task2_ws/install/custom_interfaces
+[0.032s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.061s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.130s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.133s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.136s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.280s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.327s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.510s] CMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.510s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.511s]   custom_interfaces --arguments-file
+[0.511s]   /home/createc/task2_ws/build/custom_interfaces/rosidl_adapter__arguments__custom_interfaces.json
+[0.511s]   --output-dir
+[0.511s]   /home/createc/task2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces
+[0.511s]   --output-file
+[0.511s]   /home/createc/task2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces.idls)
+[0.511s]   returned error code 1:
+[0.511s] 
+[0.511s]   Traceback (most recent call last):
+[0.511s] 
+[0.511s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[0.511s]       return _run_code(code, main_globals, None,
+[0.511s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[0.511s]       exec(code, run_globals)
+[0.512s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.512s]       sys.exit(main())
+[0.512s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.512s]       abs_idl_file = convert_to_idl(
+[0.512s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.512s]       return convert_msg_to_idl(
+[0.512s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.512s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.512s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string
+[0.512s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.512s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__
+[0.512s]       self.base_type = BaseType(
+[0.512s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[0.512s]       raise InvalidResourceName(
+[0.513s] 
+[0.513s]   rosidl_adapter.parser.InvalidResourceName: 'syst_msgs' is an invalid
+[0.513s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.513s] 
+[0.513s] Call Stack (most recent call first):
+[0.513s]   /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.513s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.513s] 
+[0.513s] 
+[0.513s] -- Configuring incomplete, errors occurred!
+[0.513s] See also "/home/createc/task2_ws/build/custom_interfaces/CMakeFiles/CMakeOutput.log".
+[0.519s] Invoked command in '/home/createc/task2_ws/build/custom_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/createc/task2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/createc/task2_ws/install/custom_interfaces

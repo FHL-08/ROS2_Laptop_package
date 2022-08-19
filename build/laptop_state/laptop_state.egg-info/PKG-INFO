@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: laptop-state
+Version: 0.0.0
+Summary: A ROS2 Package that returns all technical-information about the current state of a laptop
+Home-page: UNKNOWN
+Maintainer: Faisal
+Maintainer-email: faisallawan08@gmail.com
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN

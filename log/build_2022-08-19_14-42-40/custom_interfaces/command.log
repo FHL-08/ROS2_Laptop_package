@@ -1,0 +1,2 @@
+Invoking command in '/home/createc/task2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/createc/task2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/createc/task2_ws/install/custom_interfaces
+Invoked command in '/home/createc/task2_ws/build/custom_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/createc/task2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/createc/task2_ws/install/custom_interfaces

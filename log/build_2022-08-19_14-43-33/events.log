@@ -1,0 +1,246 @@
+[0.000000] (-) TimerEvent: {}
+[0.000242] (-) JobUnselected: {'identifier': 'laptop_state'}
+[0.000556] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.000635] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.012559] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.013336] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/createc/task2_ws/src/custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/createc/task2_ws/install/custom_interfaces'], 'cwd': '/home/createc/task2_ws/build/custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'createc'), ('SSH_AGENT_PID', '1642'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu'), ('HOME', '/home/createc'), ('OLDPWD', '/home/createc/task2_ws/src/custom_interfaces'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1461'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'createc'), ('JOURNAL_STREAM', '8:37436'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'createc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/createc-Lenovo-Y70-70-Touch:@/tmp/.ICE-unix/1679,unix/createc-Lenovo-Y70-70-Touch:/tmp/.ICE-unix/1679'), ('INVOCATION_ID', 'ab3e475665eb434f96a7e2e837002ae9'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7051420b_388b_429f_b29f_19f5dc012880'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/createc/task2_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic:/opt/ros/noetic')]), 'shell': False}
+[0.034670] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.057782] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.058046] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099386] (-) TimerEvent: {}
+[0.125207] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[0.128021] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.131629] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.199506] (-) TimerEvent: {}
+[0.278588] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299598] (-) TimerEvent: {}
+[0.325023] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.399755] (-) TimerEvent: {}
+[0.447304] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)\n'}
+[0.499880] (-) TimerEvent: {}
+[0.553219] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.559726] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.586881] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.587192] (custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)\n'}
+[0.599976] (-) TimerEvent: {}
+[0.613192] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.613354] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.613427] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[0.627277] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[0.637813] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.639745] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.640815] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.644544] (custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.674499] (custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[0.677067] (custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/createc/task2_ws/build/custom_interfaces\n'}
+[0.683952] (custom_interfaces) CommandEnded: {'returncode': 0}
+[0.684866] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[0.685860] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/createc/task2_ws/build/custom_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/createc/task2_ws/build/custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'createc'), ('SSH_AGENT_PID', '1642'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu'), ('HOME', '/home/createc'), ('OLDPWD', '/home/createc/task2_ws/src/custom_interfaces'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1461'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'createc'), ('JOURNAL_STREAM', '8:37436'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'createc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/createc-Lenovo-Y70-70-Touch:@/tmp/.ICE-unix/1679,unix/createc-Lenovo-Y70-70-Touch:/tmp/.ICE-unix/1679'), ('INVOCATION_ID', 'ab3e475665eb434f96a7e2e837002ae9'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7051420b_388b_429f_b29f_19f5dc012880'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/createc/task2_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic:/opt/ros/noetic')]), 'shell': False}
+[0.700118] (-) TimerEvent: {}
+[0.738458] (custom_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.738754] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__cpp\x1b[0m\n'}
+[0.749716] (custom_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.800211] (-) TimerEvent: {}
+[0.900515] (-) TimerEvent: {}
+[1.000849] (-) TimerEvent: {}
+[1.029211] (custom_interfaces) StdoutLine: {'line': b'[  6%] Built target custom_interfaces__cpp\n'}
+[1.029468] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_generator_c\x1b[0m\n'}
+[1.039530] (custom_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.039799] (custom_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.039927] (custom_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.042079] (custom_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/system_msg__functions.c.o\x1b[0m\n'}
+[1.100959] (-) TimerEvent: {}
+[1.103488] (custom_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.138691] (custom_interfaces) StdoutLine: {'line': b'[ 22%] Built target custom_interfaces__rosidl_generator_c\n'}
+[1.150548] (custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.154300] (custom_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.201058] (-) TimerEvent: {}
+[1.298063] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.301173] (-) TimerEvent: {}
+[1.313103] (custom_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/system_msg__type_support.cpp.o\x1b[0m\n'}
+[1.314812] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.328227] (custom_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/system_msg__type_support.cpp.o\x1b[0m\n'}
+[1.338513] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.357765] (custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/system_msg__type_support.cpp.o\x1b[0m\n'}
+[1.401281] (-) TimerEvent: {}
+[1.501563] (-) TimerEvent: {}
+[1.601874] (-) TimerEvent: {}
+[1.603311] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[1.615924] (custom_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/system_msg__type_support.cpp.o\x1b[0m\n'}
+[1.622359] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.632102] (custom_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.635360] (custom_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/system_msg__type_support.c.o\x1b[0m\n'}
+[1.647654] (custom_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.670441] (custom_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.674240] (custom_interfaces) StdoutLine: {'line': b'[ 54%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[1.689006] (custom_interfaces) StdoutLine: {'line': b'[ 54%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[1.700564] (custom_interfaces) StdoutLine: {'line': b'[ 54%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.701947] (-) TimerEvent: {}
+[1.802203] (-) TimerEvent: {}
+[1.895380] (custom_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.902324] (-) TimerEvent: {}
+[1.974999] (custom_interfaces) StdoutLine: {'line': b'[ 58%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.002444] (-) TimerEvent: {}
+[2.064270] (custom_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.102581] (-) TimerEvent: {}
+[2.169731] (custom_interfaces) StdoutLine: {'line': b'[ 61%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.186529] (custom_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.202676] (-) TimerEvent: {}
+[2.302946] (-) TimerEvent: {}
+[2.403222] (-) TimerEvent: {}
+[2.455619] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.474370] (custom_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/system_msg__type_support_c.cpp.o\x1b[0m\n'}
+[2.503352] (-) TimerEvent: {}
+[2.603643] (-) TimerEvent: {}
+[2.703971] (-) TimerEvent: {}
+[2.804271] (-) TimerEvent: {}
+[2.832367] (custom_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.904397] (-) TimerEvent: {}
+[2.925712] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.937754] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces\x1b[0m\n'}
+[2.952119] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces\n'}
+[2.964984] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__py\x1b[0m\n'}
+[2.977323] (custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.004498] (-) TimerEvent: {}
+[3.104758] (-) TimerEvent: {}
+[3.205046] (-) TimerEvent: {}
+[3.305344] (-) TimerEvent: {}
+[3.405639] (-) TimerEvent: {}
+[3.505913] (-) TimerEvent: {}
+[3.547911] (custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target custom_interfaces__py\n'}
+[3.561341] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__python\x1b[0m\n'}
+[3.604094] (custom_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/msg/_system_msg_s.c.o\x1b[0m\n'}
+[3.606004] (-) TimerEvent: {}
+[3.706270] (-) TimerEvent: {}
+[3.751803] (custom_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__python.so\x1b[0m\n'}
+[3.797092] (custom_interfaces) StdoutLine: {'line': b'[ 80%] Built target custom_interfaces__python\n'}
+[3.806384] (-) TimerEvent: {}
+[3.808752] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.808934] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.809026] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.828576] (custom_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.830040] (custom_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.830179] (custom_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.906495] (-) TimerEvent: {}
+[3.907080] (custom_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.910005] (custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.910178] (custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.942501] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[3.945284] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[3.974946] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.991331] (custom_interfaces) CommandEnded: {'returncode': 0}
+[4.006611] (-) TimerEvent: {}
+[4.060183] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[4.076054] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/createc/task2_ws/build/custom_interfaces'], 'cwd': '/home/createc/task2_ws/build/custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'createc'), ('SSH_AGENT_PID', '1642'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu'), ('HOME', '/home/createc'), ('OLDPWD', '/home/createc/task2_ws/src/custom_interfaces'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1461'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'createc'), ('JOURNAL_STREAM', '8:37436'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'createc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/createc-Lenovo-Y70-70-Touch:@/tmp/.ICE-unix/1679,unix/createc-Lenovo-Y70-70-Touch:/tmp/.ICE-unix/1679'), ('INVOCATION_ID', 'ab3e475665eb434f96a7e2e837002ae9'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7051420b_388b_429f_b29f_19f5dc012880'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/createc/task2_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic:/opt/ros/noetic')]), 'shell': False}
+[4.089340] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.089674] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[4.089899] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces\n'}
+[4.090203] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[4.090416] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.090622] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/system_msg.h\n'}
+[4.090745] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[4.090857] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/system_msg__type_support.h\n'}
+[4.091025] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/system_msg__struct.h\n'}
+[4.091181] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/system_msg__functions.c\n'}
+[4.091290] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/system_msg__functions.h\n'}
+[4.091458] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[4.091594] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[4.091969] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[4.092534] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/createc/task2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""\n'}
+[4.092697] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces\n'}
+[4.092868] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[4.093013] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.093179] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[4.093344] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/system_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[4.093512] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.094010] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/createc/task2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.094184] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces\n'}
+[4.094356] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[4.094502] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.094667] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[4.094816] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/system_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.094914] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/dds_fastrtps\n'}
+[4.095082] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.095639] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/createc/task2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.095806] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces\n'}
+[4.095926] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[4.096061] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.096178] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[4.096283] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/system_msg__type_support.c\n'}
+[4.096362] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/system_msg__rosidl_typesupport_introspection_c.h\n'}
+[4.096488] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.096949] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/createc/task2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.097100] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[4.097470] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/createc/task2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[4.097620] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces\n'}
+[4.097756] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[4.097901] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/system_msg.hpp\n'}
+[4.098003] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[4.098079] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/system_msg__traits.hpp\n'}
+[4.098192] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/system_msg__struct.hpp\n'}
+[4.098309] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/system_msg__builder.hpp\n'}
+[4.098432] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces\n'}
+[4.098510] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[4.098585] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[4.098698] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/system_msg__type_support.cpp\n'}
+[4.098789] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/system_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.098906] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.099298] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/createc/task2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.099436] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[4.099813] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/createc/task2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[4.099912] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[4.100061] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[4.100282] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/__init__.py\n'}
+[4.106706] (-) TimerEvent: {}
+[4.133394] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/createc/task2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/__init__.py'...\n"}
+[4.137620] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg\n'}
+[4.137994] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_system_msg.py\n'}
+[4.138243] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_system_msg_s.c\n'}
+[4.138329] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/__init__.py\n'}
+[4.138433] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.138953] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/createc/task2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[4.139250] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.139858] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/createc/task2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[4.140135] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.140752] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/createc/task2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[4.140973] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/lib/libcustom_interfaces__python.so\n'}
+[4.141351] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/createc/task2_ws/install/custom_interfaces/lib/libcustom_interfaces__python.so" to ""\n'}
+[4.141564] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/msg/SystemMsg.idl\n'}
+[4.141728] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/msg/SystemMsg.msg\n'}
+[4.141859] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[4.142072] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[4.142219] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[4.142424] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[4.142590] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[4.142759] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[4.142929] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[4.143107] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[4.143226] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[4.143375] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[4.143528] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[4.143787] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[4.144037] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.144234] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.144453] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.144630] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.144857] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.145057] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.145283] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.145503] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.145658] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.145887] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.146056] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.146231] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.146411] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.146571] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.146737] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.146902] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.147064] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.147222] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.147368] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[4.147487] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[4.147646] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/createc/task2_ws/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[4.150033] (custom_interfaces) CommandEnded: {'returncode': 0}
+[4.206838] (-) TimerEvent: {}
+[4.238506] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[4.239662] (-) EventReactorShutdown: {}

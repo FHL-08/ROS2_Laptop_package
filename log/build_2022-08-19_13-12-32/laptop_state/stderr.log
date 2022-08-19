@@ -1,0 +1,5 @@
+  File "/home/createc/task2_ws/install/laptop_state/lib/python3.8/site-packages/laptop_state/system_subscriber.py", line 13
+    def listener_callback(self, self.system):
+                                    ^
+SyntaxError: invalid syntax
+

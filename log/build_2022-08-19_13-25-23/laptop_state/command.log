@@ -1,0 +1,2 @@
+Invoking command in '/home/createc/task2_ws/build/laptop_state': /usr/bin/cmake /home/createc/task2_ws/src/laptop_state -DCMAKE_INSTALL_PREFIX=/home/createc/task2_ws/install/laptop_state
+Invoked command in '/home/createc/task2_ws/build/laptop_state' returned '1': /usr/bin/cmake /home/createc/task2_ws/src/laptop_state -DCMAKE_INSTALL_PREFIX=/home/createc/task2_ws/install/laptop_state

@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/laptop_state/laptop_state.egg-info/PKG-INFO
+writing dependency_links to ../../build/laptop_state/laptop_state.egg-info/dependency_links.txt
+writing entry points to ../../build/laptop_state/laptop_state.egg-info/entry_points.txt
+writing requirements to ../../build/laptop_state/laptop_state.egg-info/requires.txt
+writing top-level names to ../../build/laptop_state/laptop_state.egg-info/top_level.txt
+reading manifest file '../../build/laptop_state/laptop_state.egg-info/SOURCES.txt'
+writing manifest file '../../build/laptop_state/laptop_state.egg-info/SOURCES.txt'
+running build
+running build_py
+copying laptop_state/system_subscriber.py -> /home/createc/task2_ws/build/laptop_state/build/lib/laptop_state
+running install
+running install_lib
+copying /home/createc/task2_ws/build/laptop_state/build/lib/laptop_state/system_subscriber.py -> /home/createc/task2_ws/install/laptop_state/lib/python3.8/site-packages/laptop_state
+byte-compiling /home/createc/task2_ws/install/laptop_state/lib/python3.8/site-packages/laptop_state/system_subscriber.py to system_subscriber.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/createc/task2_ws/install/laptop_state/lib/python3.8/site-packages/laptop_state-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/laptop_state/laptop_state.egg-info to /home/createc/task2_ws/install/laptop_state/lib/python3.8/site-packages/laptop_state-0.0.0-py3.8.egg-info
+running install_scripts
+Installing battery_listener script to /home/createc/task2_ws/install/laptop_state/lib/laptop_state
+Installing battery_talker script to /home/createc/task2_ws/install/laptop_state/lib/laptop_state
+Installing system_listener script to /home/createc/task2_ws/install/laptop_state/lib/laptop_state
+Installing system_talker script to /home/createc/task2_ws/install/laptop_state/lib/laptop_state
+writing list of installed files to '/home/createc/task2_ws/build/laptop_state/install.log'

@@ -1,0 +1,34 @@
+[0.015s] Invoking command in '/home/createc/task2_ws/build/laptop_state': /usr/bin/cmake /home/createc/task2_ws/src/laptop_state -DCMAKE_INSTALL_PREFIX=/home/createc/task2_ws/install/laptop_state
+[0.040s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.040s] -- Found ament_cmake_core: 1.1.5 (/opt/ros/galactic/share/ament_cmake_core/cmake)
+[0.062s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.124s] CMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[0.124s]   Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+[0.124s]   --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+[0.124s]   set the policy and suppress this warning.
+[0.124s] 
+[0.124s]   IN_LIST will be interpreted as an operator when the policy is set to NEW.
+[0.125s]   Since the policy is not set the OLD behavior will be used.
+[0.125s] Call Stack (most recent call first):
+[0.125s]   /opt/ros/galactic/share/ament_cmake_core/cmake/index/ament_index_get_resources.cmake:51 (list_append_unique)
+[0.125s]   /opt/ros/galactic/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:5 (ament_index_get_resources)
+[0.125s]   /opt/ros/galactic/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+[0.125s]   CMakeLists.txt:4 (find_package)
+[0.125s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.125s] 
+[0.125s] CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[0.125s]   if given arguments:
+[0.125s] 
+[0.125s]     "NOT" "element" "IN_LIST" "paths_to_search"
+[0.125s] 
+[0.126s]   Unknown arguments specified
+[0.126s] Call Stack (most recent call first):
+[0.126s]   /opt/ros/galactic/share/ament_cmake_core/cmake/index/ament_index_get_resources.cmake:51 (list_append_unique)
+[0.126s]   /opt/ros/galactic/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:5 (ament_index_get_resources)
+[0.126s]   /opt/ros/galactic/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+[0.126s]   CMakeLists.txt:4 (find_package)
+[0.126s] 
+[0.126s] 
+[0.126s] -- Configuring incomplete, errors occurred!
+[0.126s] See also "/home/createc/task2_ws/build/laptop_state/CMakeFiles/CMakeOutput.log".
+[0.127s] Invoked command in '/home/createc/task2_ws/build/laptop_state' returned '1': /usr/bin/cmake /home/createc/task2_ws/src/laptop_state -DCMAKE_INSTALL_PREFIX=/home/createc/task2_ws/install/laptop_state

@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.000750] (laptop_state) JobQueued: {'identifier': 'laptop_state', 'dependencies': OrderedDict()}
+[0.000788] (laptop_state) JobStarted: {'identifier': 'laptop_state'}
+[0.013853] (laptop_state) JobProgress: {'identifier': 'laptop_state', 'progress': 'cmake'}
+[0.014144] (laptop_state) Command: {'cmd': ['/usr/bin/cmake', '/home/createc/task2_ws/src/laptop_state', '-DCMAKE_INSTALL_PREFIX=/home/createc/task2_ws/install/laptop_state'], 'cwd': '/home/createc/task2_ws/build/laptop_state', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'createc'), ('SSH_AGENT_PID', '1642'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu'), ('HOME', '/home/createc'), ('OLDPWD', '/home/createc/task2_ws/src/laptop_state'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1461'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/createc/task2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'createc'), ('JOURNAL_STREAM', '8:37436'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'createc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/createc-Lenovo-Y70-70-Touch:@/tmp/.ICE-unix/1679,unix/createc-Lenovo-Y70-70-Touch:/tmp/.ICE-unix/1679'), ('INVOCATION_ID', 'ab3e475665eb434f96a7e2e837002ae9'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3d02460c_1bab_47d1_b5fa_230191bca5e4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/createc/task2_ws/install/laptop_state:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/createc/task2_ws/build/laptop_state'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/createc/task2_ws/install/laptop_state/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/noetic')]), 'shell': False}
+[0.053286] (laptop_state) StderrLine: {'line': b'CMake Warning (dev) in CMakeLists.txt:\n'}
+[0.053659] (laptop_state) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.053761] (laptop_state) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.053853] (laptop_state) StderrLine: {'line': b'  code such as\n'}
+[0.053940] (laptop_state) StderrLine: {'line': b'\n'}
+[0.054025] (laptop_state) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.054107] (laptop_state) StderrLine: {'line': b'\n'}
+[0.054188] (laptop_state) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.054269] (laptop_state) StderrLine: {'line': b'\n'}
+[0.054350] (laptop_state) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.054433] (laptop_state) StderrLine: {'line': b'  line.\n'}
+[0.054514] (laptop_state) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.054593] (laptop_state) StderrLine: {'line': b'\n'}
+[0.099771] (-) TimerEvent: {}
+[0.200169] (-) TimerEvent: {}
+[0.244710] (laptop_state) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.300303] (-) TimerEvent: {}
+[0.400781] (-) TimerEvent: {}
+[0.406855] (laptop_state) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.418583] (laptop_state) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.500931] (-) TimerEvent: {}
+[0.508835] (laptop_state) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.510844] (laptop_state) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.596706] (laptop_state) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.601035] (-) TimerEvent: {}
+[0.620280] (laptop_state) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.621593] (laptop_state) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.628603] (laptop_state) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.701135] (-) TimerEvent: {}
+[0.713366] (laptop_state) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.714603] (laptop_state) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.801260] (-) TimerEvent: {}
+[0.804239] (laptop_state) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.819964] (laptop_state) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.820772] (laptop_state) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.826414] (laptop_state) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[0.829381] (laptop_state) StdoutLine: {'line': b'-- Found ament_cmake_core: 1.1.5 (/opt/ros/galactic/share/ament_cmake_core/cmake)\n'}
+[0.858205] (laptop_state) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.858459] (laptop_state) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.901367] (-) TimerEvent: {}
+[0.925090] (laptop_state) StderrLine: {'line': b'CMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[0.925363] (laptop_state) StderrLine: {'line': b'  Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake\n'}
+[0.925446] (laptop_state) StderrLine: {'line': b'  --help-policy CMP0057" for policy details.  Use the cmake_policy command to\n'}
+[0.925521] (laptop_state) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[0.925594] (laptop_state) StderrLine: {'line': b'\n'}
+[0.925677] (laptop_state) StderrLine: {'line': b'  IN_LIST will be interpreted as an operator when the policy is set to NEW.\n'}
+[0.925758] (laptop_state) StderrLine: {'line': b'  Since the policy is not set the OLD behavior will be used.\n'}
+[0.925933] (laptop_state) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.926014] (laptop_state) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/index/ament_index_get_resources.cmake:51 (list_append_unique)\n'}
+[0.926089] (laptop_state) StderrLine: {'line': b'  /opt/ros/galactic/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:5 (ament_index_get_resources)\n'}
+[0.926167] (laptop_state) StderrLine: {'line': b'  /opt/ros/galactic/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)\n'}
+[0.926238] (laptop_state) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.926307] (laptop_state) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.926377] (laptop_state) StderrLine: {'line': b'\n'}
+[0.926445] (laptop_state) StderrLine: {'line': b'CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[0.926513] (laptop_state) StderrLine: {'line': b'  if given arguments:\n'}
+[0.926581] (laptop_state) StderrLine: {'line': b'\n'}
+[0.926648] (laptop_state) StderrLine: {'line': b'    "NOT" "element" "IN_LIST" "paths_to_search"\n'}
+[0.926716] (laptop_state) StderrLine: {'line': b'\n'}
+[0.926783] (laptop_state) StderrLine: {'line': b'  Unknown arguments specified\n'}
+[0.926852] (laptop_state) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.926920] (laptop_state) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/index/ament_index_get_resources.cmake:51 (list_append_unique)\n'}
+[0.926990] (laptop_state) StderrLine: {'line': b'  /opt/ros/galactic/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:5 (ament_index_get_resources)\n'}
+[0.927066] (laptop_state) StderrLine: {'line': b'  /opt/ros/galactic/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)\n'}
+[0.927136] (laptop_state) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.927204] (laptop_state) StderrLine: {'line': b'\n'}
+[0.927271] (laptop_state) StderrLine: {'line': b'\n'}
+[0.927338] (laptop_state) StderrLine: {'line': b'CMake Warning (dev) in CMakeLists.txt:\n'}
+[0.927405] (laptop_state) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.927473] (laptop_state) StderrLine: {'line': b'\n'}
+[0.927540] (laptop_state) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.16)\n'}
+[0.927650] (laptop_state) StderrLine: {'line': b'\n'}
+[0.927771] (laptop_state) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.927904] (laptop_state) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.928029] (laptop_state) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.928122] (laptop_state) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.928419] (laptop_state) StderrLine: {'line': b'\n'}
+[0.928516] (laptop_state) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.928857] (laptop_state) StdoutLine: {'line': b'See also "/home/createc/task2_ws/build/laptop_state/CMakeFiles/CMakeOutput.log".\n'}
+[0.929334] (laptop_state) CommandEnded: {'returncode': 1}
+[0.930821] (laptop_state) JobEnded: {'identifier': 'laptop_state', 'rc': 1}
+[0.941751] (-) EventReactorShutdown: {}

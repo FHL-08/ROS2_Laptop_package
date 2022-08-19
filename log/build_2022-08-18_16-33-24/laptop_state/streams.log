@@ -1,0 +1,33 @@
+[0.711s] Invoking command in '/home/createc/task2_ws/src/laptop_state': PYTHONPATH=/home/createc/task2_ws/install/laptop_state/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/laptop_state build --build-base /home/createc/task2_ws/build/laptop_state/build install --prefix /home/createc/task2_ws/install/laptop_state --record /home/createc/task2_ws/build/laptop_state/install.log --single-version-externally-managed
+[0.951s] running egg_info
+[0.951s] creating ../../build/laptop_state/laptop_state.egg-info
+[0.952s] writing ../../build/laptop_state/laptop_state.egg-info/PKG-INFO
+[0.952s] writing dependency_links to ../../build/laptop_state/laptop_state.egg-info/dependency_links.txt
+[0.952s] writing entry points to ../../build/laptop_state/laptop_state.egg-info/entry_points.txt
+[0.952s] writing requirements to ../../build/laptop_state/laptop_state.egg-info/requires.txt
+[0.952s] writing top-level names to ../../build/laptop_state/laptop_state.egg-info/top_level.txt
+[0.953s] writing manifest file '../../build/laptop_state/laptop_state.egg-info/SOURCES.txt'
+[0.984s] reading manifest file '../../build/laptop_state/laptop_state.egg-info/SOURCES.txt'
+[0.985s] writing manifest file '../../build/laptop_state/laptop_state.egg-info/SOURCES.txt'
+[0.985s] running build
+[0.985s] running build_py
+[0.985s] creating /home/createc/task2_ws/build/laptop_state/build
+[0.986s] creating /home/createc/task2_ws/build/laptop_state/build/lib
+[0.986s] creating /home/createc/task2_ws/build/laptop_state/build/lib/laptop_state
+[0.986s] copying laptop_state/__init__.py -> /home/createc/task2_ws/build/laptop_state/build/lib/laptop_state
+[0.986s] running install
+[0.986s] running install_lib
+[0.987s] creating /home/createc/task2_ws/install/laptop_state/lib/python3.8/site-packages/laptop_state
+[0.987s] copying /home/createc/task2_ws/build/laptop_state/build/lib/laptop_state/__init__.py -> /home/createc/task2_ws/install/laptop_state/lib/python3.8/site-packages/laptop_state
+[0.988s] byte-compiling /home/createc/task2_ws/install/laptop_state/lib/python3.8/site-packages/laptop_state/__init__.py to __init__.cpython-38.pyc
+[0.989s] running install_data
+[0.990s] creating /home/createc/task2_ws/install/laptop_state/share/ament_index
+[0.990s] creating /home/createc/task2_ws/install/laptop_state/share/ament_index/resource_index
+[0.990s] creating /home/createc/task2_ws/install/laptop_state/share/ament_index/resource_index/packages
+[0.990s] copying resource/laptop_state -> /home/createc/task2_ws/install/laptop_state/share/ament_index/resource_index/packages
+[0.990s] copying package.xml -> /home/createc/task2_ws/install/laptop_state/share/laptop_state
+[0.990s] running install_egg_info
+[0.992s] Copying ../../build/laptop_state/laptop_state.egg-info to /home/createc/task2_ws/install/laptop_state/lib/python3.8/site-packages/laptop_state-0.0.0-py3.8.egg-info
+[0.993s] running install_scripts
+[1.008s] writing list of installed files to '/home/createc/task2_ws/build/laptop_state/install.log'
+[1.032s] Invoked command in '/home/createc/task2_ws/src/laptop_state' returned '0': PYTHONPATH=/home/createc/task2_ws/install/laptop_state/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/laptop_state build --build-base /home/createc/task2_ws/build/laptop_state/build install --prefix /home/createc/task2_ws/install/laptop_state --record /home/createc/task2_ws/build/laptop_state/install.log --single-version-externally-managed
