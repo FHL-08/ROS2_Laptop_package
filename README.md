@@ -1,7 +1,7 @@
 # ROS2_Laptop_package
 ## Description:
 A version of the original ROS_Laptop_package in ROS2 galactic
-
+--
 ## Installing ros2 galactic on Ubuntu 20.04
 
 * To install galactic, you first make sure that that you have a local which supports UTF-8
@@ -37,8 +37,7 @@ sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o
 ```
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(source /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 ```
-![image](https://user-images.githubusercontent.com/50205766/185657047-0f91f9df-fe59-4e0c-9aee-a0b490047a29.png)
-
+--
 ### install ros2
 ```
 sudo apt update
@@ -48,7 +47,7 @@ sudo apt install ros-galactic-desktop
 `source /opt/ros/galactic/setup.bash`
 
 > Use the 'ros2' command to run packages similar to ros1
-
+--
 ## Using ROS2:
 ROS2 is very similar to the setup of ros1 although, there are some major changes in its makeup.
 * roscore is no longer available in ros2
@@ -66,10 +65,10 @@ ROS2 is very similar to the setup of ros1 although, there are some major changes
     * Non Linux Systems: `pip install -U colcon-common-extensions`
 * Like ros1, you must source the workspace before running any nodes
 ```
-cd <Workspace>
+cd <workspace_name>
 . install/setup.bash
 ```
-For more information on ros2 chech the documentation here: 
+For more information on ros2 check the documentation here: 
 [ros2 documentation]( http://docs.ros.org.ros.informatik.uni-freiburg.de/en/galactic/index.html "ros2 galactic")
 
 ## Using laptop_package
@@ -92,9 +91,9 @@ For more information on ros2 chech the documentation here:
 * source the folder using `. install/setup.bash`
 
 ### Getting the battery information
-* To get the battery information, run the `battery_publisher.py` node
-* Subscribe to the publisher by running the `battery_subscriber.py` node
+* To get the battery information, run the `battery_talker` node
+* Subscribe to the publisher by running the `battery_listener` node
 
 ### Getting Laptop information
-* To get the information about the laptop, run the `system_publisher.py` node
-* Subscribe to the publisher by running the `system_subscriber.py` node
+* To get the information about the laptop, run the `system_talker` node
+* Subscribe to the publisher by running the `system_listener` node
