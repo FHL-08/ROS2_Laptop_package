@@ -1,6 +1,6 @@
 # ROS2_Laptop_package
 ## Description:
-A version of the original ROS_Laptop_package in ROS2 galactic
+A version of the original ROS_Laptop_package in ros2 galactic
 ***
 ## Installing ros2 galactic on Ubuntu 20.04
 
@@ -37,8 +37,7 @@ sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o
 ```
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(source /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 ```
-***
-### install ros2
+### Install ros2
 ```
 sudo apt update
 sudo apt install ros-galactic-desktop
@@ -48,8 +47,8 @@ sudo apt install ros-galactic-desktop
 
 > Use the 'ros2' command to run packages similar to ros1
 ***
-## Using ROS2:
-ROS2 is very similar to the setup of ros1 although, there are some major changes in its makeup.
+## Using ros2:
+ros2 is very similar to the setup of ros1 although, there are some major changes in its makeup.
 * roscore is no longer available in ros2
 * all commands must now start with 'ros2' e.g. ros2 run <package_name> <node_name>
 * The libraries for writing nodes is no longer 'rospy'/'roscpp' and is now 'rclpy'/'rclcpp'
@@ -68,8 +67,7 @@ ROS2 is very similar to the setup of ros1 although, there are some major changes
 cd <workspace_name>
 . install/setup.bash
 ```
-For more information on ros2 check the documentation here: 
-[ros2 documentation]( http://docs.ros.org.ros.informatik.uni-freiburg.de/en/galactic/index.html "ros2 galactic")
+For more information on ros2 check the documentation here: [ros2 documentation](http://docs.ros.org.ros.informatik.uni-freiburg.de/en/galactic/index.html "ros2 galactic")
 ***
 ## Using laptop_package
 ### Messages (.msg)
