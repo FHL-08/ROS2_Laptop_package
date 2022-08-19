@@ -85,7 +85,7 @@ For more information on ros2 check the documentation here: [ros2 documentation](
 * Create a colcon workspace in a preferred location
 * Make a local git pull request to download the folder
 * change directory to the recently downloaded folder
-* build the project using a `colcon build --packages-select <package name>`
+* build the project using a `colcon build --symlink-install`
 * source the folder using `. install/setup.bash`
 
 ### Getting the battery information
