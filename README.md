@@ -21,7 +21,7 @@ locale
 sudo sh -c 'echo "deb [arch=$(dpkg --print-architecture)] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/ros2-latest.list'
 ```
 * Ensure that the Ubuntu universe repository is enabled.
-`Apt-cache policy | grep universe`
+`apt-cache policy | grep universe`
 
 * If the universe repository is not enabled, you can enable it using these commands:
 ```
